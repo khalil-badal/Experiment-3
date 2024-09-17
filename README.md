@@ -22,18 +22,18 @@ load the csv file
 ```python
 cars_df = pd.read_csv('cars.csv')
 ```
-# Display the csv file
+Display the csv file
 ```python
 print(cars_df)
 
 ```
-# Display the first five rows of the resulting cars. 
-# Use df.head() method to display the first five rows
+Display the first five rows of the resulting cars. 
+Use df.head() method to display the first five rows
 ```python
 cars_df.head()
 
 ```
-# Display the last five rows of the resulting cars. 
+Display the last five rows of the resulting cars. 
 ```python
 cars_df.tail()
 
