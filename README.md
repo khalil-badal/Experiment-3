@@ -1,8 +1,8 @@
 # EXPERIMENT 3 - PANDAS
 
-Khalil T. Badal                                             
-2ECE-B
-September 19,2024
+#### Khalil T. Badal                                             
+#### 2ECE-B
+#### September 19,2024
 
 ### I. Intended Learning Outcomes:
 To identify the codes and functions incorporated in the Pandas library
