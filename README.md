@@ -38,7 +38,8 @@ Use df.head() method to display the first five rows
 cars_df.head()
 
 ```
-Display the last five rows of the resulting cars. 
+Display the last five rows of the resulting cars.  <br>
+
 
 ### PROBLEM 2: Save your file as Surname_Pandas-P2.py
 
