@@ -57,7 +57,7 @@ import pandas library
 ```python
 import pandas as pd
 ```
-load the csv file 
+load the csv file
 ```python
 cars_df = pd.read_csv('cars.csv')
 
@@ -113,9 +113,12 @@ cyl_Camaro_Z28
 ```
 #### d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
 import pandas library
-load the csv file
 ```python
 import pandas as pd
+```
+load the csv file
+```python
+cars_df = pd.read_csv('cars.csv')
 ```
 by indexing,  display how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have
 ```python
