@@ -19,7 +19,7 @@ import pandas library
 ```python
 import pandas as pd
 ```
-#### a.)
+### a.)
 Load the csv file 
 ```python
 cars_df = pd.read_csv('cars.csv')
@@ -31,7 +31,7 @@ print(cars_df)
 ```
 
 
-#### b.)
+### b.)
 Display the first five rows of the resulting cars. 
 Use df.head() method to display the first five rows
 ```python
@@ -52,7 +52,7 @@ cars_df.tail()
 ##### c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
 ##### d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
 
-#### a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.
+### a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.
 import pandas library
 ```python
 import pandas as pd
@@ -74,7 +74,7 @@ Display the first five rows by using the data frame method df.head()
 odd_columns_df.head()
 
 ```
-#### b.) Display the row that contains the ‘Model’ of ‘Mazda RX4’.
+### b.) Display the row that contains the ‘Model’ of ‘Mazda RX4’.
 import pandas library
 ```python
 import pandas as pd
@@ -93,7 +93,7 @@ Display the result
 row_Model_Mazda_RX4
 
 ```
-#### c.) How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
+### c.) How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
 import pandas library
 ```python
 import pandas as pd
@@ -111,7 +111,7 @@ Display the model, and cyl as a result
 cyl_Camaro_Z28
 
 ```
-#### d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
+### d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
 import pandas library
 ```python
 import pandas as pd
