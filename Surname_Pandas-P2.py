@@ -6,9 +6,9 @@
 # PROBLEM 2: Save your file as Surname_Pandas-P2.py
 # Using the dataframe cars in problem 1, extract the following information using subsetting, slicing and indexing operations.
 # a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.
-# b. Display the row that contains the ‘Model’ of ‘Mazda RX4’.¶
-# c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
-# d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
+# b. Display the row that contains the â€˜Modelâ€™ of â€˜Mazda RX4â€™.Â¶
+# c. How many cylinders (â€˜cylâ€™) does the car model â€˜Camaro Z28â€™ have?
+# d. Determine how many cylinders (â€˜cylâ€™) and what gear type (â€˜gearâ€™) do the car models â€˜Mazda RX4 Wagâ€™, â€˜Ford Pantera Lâ€™ and â€˜Honda Civicâ€™ have.
 
 # start
 # import pandas library
@@ -44,7 +44,7 @@ print(odd_columns_df.head())
 print("\n")
 
 
-# b.) Display the row that contains the ‘Model’ of ‘Mazda RX4’.
+# b.) Display the row that contains the â€˜Modelâ€™ of â€˜Mazda RX4â€™.
 
 # By indexing, filter the DataFrame to get rows where 'Model' is 'Mazda RX4'
 row_Model_Mazda_RX4 = cars_df[cars_df["Model"] == "Mazda RX4"]
@@ -59,7 +59,7 @@ print(row_Model_Mazda_RX4)
 print("\n")
 
 
-# c.) How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
+# c.) How many cylinders (â€˜cylâ€™) does the car model â€˜Camaro Z28â€™ have?
 
 # By subsetting, use i.loc select row 23 and columns 0 and 2 from the DataFrame cars_df.
 cyl_Camaro_Z28 = cars_df.iloc[[23], [0, 2]]
@@ -75,9 +75,9 @@ print(cyl_Camaro_Z28)
 print("\n")
 
 
-# d.) Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
+# d.) Determine how many cylinders (â€˜cylâ€™) and what gear type (â€˜gearâ€™) do the car models â€˜Mazda RX4 Wagâ€™, â€˜Ford Pantera Lâ€™ and â€˜Honda Civicâ€™ have.
 
-# by indexing,  display how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have
+# by indexing,  display how many cylinders (â€˜cylâ€™) and what gear type (â€˜gearâ€™) do the car models â€˜Mazda RX4 Wagâ€™, â€˜Ford Pantera Lâ€™ and â€˜Honda Civicâ€™ have
 gear_and_cyl = cars_df.loc[[1, 18, 28], ["Model", "cyl", "gear"]]
 
 # Display the category
