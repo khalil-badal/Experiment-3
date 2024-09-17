@@ -27,6 +27,7 @@ Display the csv file
 print(cars_df)
 
 ```
+### b.
 Display the first five rows of the resulting cars. 
 Use df.head() method to display the first five rows
 ```python
