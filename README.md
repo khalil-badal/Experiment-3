@@ -121,5 +121,6 @@ Display the model, cyl and gear as a result
 ```python
 gear_and_cyl
 
+```
 # End
 
