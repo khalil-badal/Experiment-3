@@ -39,8 +39,10 @@ cars_df.head()
 
 ```
 Display the last five rows of the resulting cars.  <br>
+```python
+cars_df.tail()
 
-
+```
 ### PROBLEM 2: Save your file as Surname_Pandas-P2.py
 
 
