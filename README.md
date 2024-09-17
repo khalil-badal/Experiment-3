@@ -8,7 +8,7 @@ September 19,2024
 To identify the codes and functions incorporated in the Pandas library
 To be able to apply and use the different codes and functions in creating a Python program using a Pandas library
 
-#### PROBLEM 1: Save your file as Surname_Pandas-P1.py
+### PROBLEM 1: Save your file as Surname_Pandas-P1.py
 Using knowledge obtained from the experiment and demonstrations:                    
 a. Load the corresponding .csv file into a data frame named cars using pandas               
 b. Display the first five and last five rows of the resulting cars.
@@ -39,13 +39,14 @@ cars_df.head()
 ```
 Display the last five rows of the resulting cars. 
 
-#### PROBLEM 2: Save your file as Surname_Pandas-P2.py
+### PROBLEM 2: Save your file as Surname_Pandas-P2.py
 
-Using the dataframe cars in problem 1, extract the following information using subsetting, slicing and indexing operations.
-a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.
-b. Display the row that contains the ‘Model’ of ‘Mazda RX4’.
-c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
-d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
+
+#### Using the dataframe cars in problem 1, extract the following information using subsetting, slicing and indexing operations.                    
+##### a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.                
+##### b. Display the row that contains the ‘Model’ of ‘Mazda RX4’.            
+##### c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
+##### d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
 
 #### a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.
 import pandas library
