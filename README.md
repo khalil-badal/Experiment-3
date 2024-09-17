@@ -50,7 +50,7 @@ import pandas library
 ```python
 import pandas as pd
 ```
-# load the csv file 
+load the csv file 
 ```python
 cars_df = pd.read_csv('cars.csv')
 
