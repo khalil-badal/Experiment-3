@@ -1,9 +1,5 @@
 # EXPERIMENT 3 - PANDAS
-# I. Intended Learning Outcomes:
-# To identify the codes and functions incorporated in the Pandas library
-# To be able to apply and use the different codes and functions in creating a Python program using a Pandas library
-
-# PROBLEM 1: Save your file as Surname_Pandas-P1.py
+# PROBLEM 1: 
 # Using knowledge obtained from the experiment and demonstrations:
 # a. Load the corresponding .csv file into a data frame named cars using pandas
 # b. Display the first five and last five rows of the resulting cars.
