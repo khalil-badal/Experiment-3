@@ -177,6 +177,7 @@ cyl_Camaro_Z28
 
 ```
 |   | Model       | cyl |
+|---|----------------|---|
 | 23 | Camaro Z28 | 8   |
 
 ### d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
