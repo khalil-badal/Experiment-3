@@ -207,7 +207,7 @@ gear_and_cyl
 ### End
 
 ### Note
-#### The code works a bit differently in Python because, unlike Jupyter notebooks, you need to use print() to show the DataFrame in Python scripts. While Jupyter Notebook prints automatically.
+#### The code was written slightly different in Python because, unlike Jupyter notebooks, you need to use print() to show the DataFrame in Python scripts. While Jupyter Notebook prints automatically.
 
 ### Authors
 #### Khalil Badal
