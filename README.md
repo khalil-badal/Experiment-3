@@ -103,7 +103,7 @@ cars_df.tail()
 ##### c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
 ##### d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
 
-### a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.
+### a.) Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.
 import pandas library
 ```python
 import pandas as pd
@@ -180,7 +180,7 @@ cyl_Camaro_Z28
 |---|----------------|---|
 | 23 | Camaro Z28 | 8   |
 
-### d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
+### d.) Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
 import pandas library
 ```python
 import pandas as pd
