@@ -101,6 +101,7 @@ import pandas as pd
 load the csv file
 ```python
 cars_df = pd.read_csv('cars.csv')
+```
 # Display the number of cyl of the car model Camaro Z28 by subsetting 
 # Using i.loc select row 23 and columns 0 and 2 from the DataFrame cars_df.
 ```python
