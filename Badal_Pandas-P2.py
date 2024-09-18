@@ -1,10 +1,8 @@
 # EXPERIMENT 3 - PANDAS
-# I. Intended Learning Outcomes:
-# To identify the codes and functions incorporated in the Pandas library
-# To be able to apply and use the different codes and functions in creating a Python program using a Pandas library
 
-# PROBLEM 2: Save your file as Surname_Pandas-P2.py
+# PROBLEM 2: 
 # Using the dataframe cars in problem 1, extract the following information using subsetting, slicing and indexing operations.
+
 # a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7...) of cars.
 # b. Display the row that contains the ‘Model’ of ‘Mazda RX4’.¶
 # c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
