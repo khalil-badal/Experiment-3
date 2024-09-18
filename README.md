@@ -72,11 +72,28 @@ Use df.head() method to display the first five rows
 cars_df.head()
 
 ```
+|   | Model              | mpg  | cyl | disp  | hp  | drat | wt    | qsec | vs | am | gear | carb |
+|---|--------------------|------|-----|-------|-----|------|-------|------|----|----|------|------|
+| 0 | Mazda RX4         | 21.0 | 6   | 160.0 | 110 | 3.90 | 2.620 | 16.46| 0  | 1  | 4    | 4    |
+| 1 | Mazda RX4 Wag     | 21.0 | 6   | 160.0 | 110 | 3.90 | 2.875 | 17.02| 0  | 1  | 4    | 4    |
+| 2 | Datsun 710         | 22.8 | 4   | 108.0 | 93  | 3.85 | 2.320 | 18.61| 1  | 1  | 4    | 1    |
+| 3 | Hornet 4 Drive     | 21.4 | 6   | 258.0 | 110 | 3.08 | 3.215 | 19.44| 1  | 0  | 3    | 1    |
+| 4 | Hornet Sportabout  | 18.7 | 8   | 360.0 | 175 | 3.15 | 3.440 | 17.02| 0  | 0  | 3    | 2    |
+
+
 Display the last five rows of the resulting cars.  <br>
 ```python
 cars_df.tail()
-
 ```
+|   | Model             | mpg  | cyl | disp  | hp  | drat | wt    | qsec | vs | am | gear | carb |
+|---|-------------------|------|-----|-------|-----|------|-------|------|----|----|------|------|
+| 27| Lotus Europa      | 30.4 | 4   | 95.1  | 113 | 3.77 | 1.513 | 16.9 | 1  | 1  | 5    | 2    |
+| 28| Ford Pantera L    | 15.8 | 8   | 351.0 | 264 | 4.22 | 3.170 | 14.5 | 0  | 1  | 5    | 4    |
+| 29| Ferrari Dino      | 19.7 | 6   | 145.0 | 175 | 3.62 | 2.770 | 15.5 | 0  | 1  | 5    | 6    |
+| 30| Maserati Bora     | 15.0 | 8   | 301.0 | 335 | 3.54 | 3.570 | 14.6 | 0  | 1  | 5    | 8    |
+| 31| Volvo 142E        | 21.4 | 4   | 121.0 | 109 | 4.11 | 2.780 | 18.6 | 1  | 1  | 4    | 2    |
+
+
 ### PROBLEM 2: Save your file as Surname_Pandas-P2.py
 
 
@@ -108,6 +125,15 @@ Display the first five rows by using the data frame method df.head()
 odd_columns_df.head()
 
 ```
+|   | Model            | cyl | hp  | wt    | vs | gear |
+|---|------------------|-----|-----|-------|----|------|
+| 0 | Mazda RX4        | 6   | 110 | 2.620 | 0  | 4    |
+| 1 | Mazda RX4 Wag    | 6   | 110 | 2.875 | 0  | 4    |
+| 2 | Datsun 710       | 4   | 93  | 2.320 | 1  | 4    |
+| 3 | Hornet 4 Drive   | 6   | 110 | 3.215 | 1  | 3    |
+| 4 | Hornet Sportabout| 8   | 175 | 3.440 | 0  | 3    |
+
+
 ### b.) Display the row that contains the ‘Model’ of ‘Mazda RX4’.
 import pandas library
 ```python
@@ -127,6 +153,10 @@ Display the result
 row_Model_Mazda_RX4
 
 ```
+|   | Model      | mpg  | cyl | disp  | hp  | drat | wt   | qsec  | vs | am | gear | carb |
+|---|------------|------|-----|-------|-----|------|------|-------|----|----|------|------|
+| 0 | Mazda RX4  | 21.0 | 6   | 160.0 | 110 | 3.9  | 2.62 | 16.46 | 0  | 1  | 4    | 4    |
+
 ### c.) How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
 import pandas library
 ```python
@@ -146,6 +176,9 @@ Display the model, and cyl as a result
 cyl_Camaro_Z28
 
 ```
+|   | Model       | cyl |
+| 23 | Camaro Z28 | 8   |
+
 ### d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
 import pandas library
 ```python
@@ -164,6 +197,12 @@ Display the model, cyl and gear as a result
 gear_and_cyl
 
 ```
+|   | Model          | cyl | gear |
+|---|----------------|-----|------|
+| 1 | Mazda RX4 Wag  | 6   | 4    |
+| 18| Honda Civic    | 4   | 4    |
+| 28| Ford Pantera L | 8   | 5    |
+
 #### End
 
 ### Authors
