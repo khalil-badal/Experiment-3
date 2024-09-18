@@ -167,7 +167,7 @@ load the csv file
 cars_df = pd.read_csv('cars.csv')
 ```
 Display the number of cyl of the car model Camaro Z28 by subsetting 
-Using i.loc select row 23 and columns 0 and 2 from the DataFrame cars_df.
+using i.loc select row 23 and columns 0 and 2 from the DataFrame cars_df.
 ```python
 cyl_Camaro_Z28 = cars_df.iloc[[23],[0,2]]
 ```
@@ -189,7 +189,7 @@ load the csv file
 ```python
 cars_df = pd.read_csv('cars.csv')
 ```
-by indexing,  display how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have
+By indexing,  display how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have
 ```python
 gear_and_cyl = cars_df.loc[[1,18,28],['Model', 'cyl', 'gear']]
 ```
